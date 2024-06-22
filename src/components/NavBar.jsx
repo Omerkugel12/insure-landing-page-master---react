@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../images/logo.svg";
 import hamburger from "../images/icon-hamburger.svg";
 import Button from "../UI/Button";
+import A from "../UI/A";
 
 function NavBar() {
   return (
@@ -9,16 +10,18 @@ function NavBar() {
       <img src={logo} alt="logo" className="w-[5rem] h-3" />
       <ul className="flex space-x-6 uppercase text-[0.6rem]">
         <li>
-          <a href="">How we work</a>
+          <A href="" className="font-karla tracking-wider">
+            How we work
+          </A>
         </li>
         <li>
-          <a href="">Blog</a>
+          <A href="">Blog</A>
         </li>
         <li>
-          <a href="">Account</a>
+          <A href="">Account</A>
         </li>
         <li>
-          <Button>View plans</Button>
+          <Button navBtn>View plans</Button>
         </li>
       </ul>
       <img src={hamburger} alt="hamburger" className="size-6 hidden" />
