@@ -5,7 +5,7 @@ import Humanizing from "./components/Humanizing";
 
 function App() {
   return (
-    <div className="text-base">
+    <div className="text-base ">
       <NavBar />
       <img src={imageF} alt="" />
       <Humanizing />

@@ -14,7 +14,17 @@ export default {
         "dm-serif": ['"DM Serif Display"', "serif"],
         karla: ['"Karla"', "sans-serif"],
       },
+      backgroundImage: {
+        "intro-left-mobile":
+          "url('./src/images/bg-pattern-intro-left-mobile.svg')",
+        "intro-right-mobile":
+          "url('./src/images/bg-pattern-intro-right-mobile.svg')",
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    {
+      plugins: ["prettier-plugin-tailwindcss"],
+    },
+  ],
 };
