@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="text-base ">
       <NavBar />
-      <img src={imageF} alt="" />
       <Humanizing />
     </div>
   );
